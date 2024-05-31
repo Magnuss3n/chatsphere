@@ -1,0 +1,28 @@
+/* index.css or App.css */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    /* For Firefox */
+    scrollbar-color: rgba(100, 100, 100, 0.5) transparent;
+    /* For Firefox */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    /* Adjust the width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+    /* Background of the scrollbar track */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: rgba(100, 100, 100, 0.5);
+    /* Color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Roundness of the scrollbar thumb */
+    border: 2px solid transparent;
+    /* Padding around the thumb */
+    background-clip: content-box;
+    /* Ensures the thumb stays inside the track */
+}
